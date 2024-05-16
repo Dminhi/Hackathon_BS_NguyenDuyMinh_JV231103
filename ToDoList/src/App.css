@@ -1,0 +1,109 @@
+.App {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+li span {
+    flex-grow: 1;
+}
+
+li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+li button:focus {
+    outline: none;
+}
+
+li button:nth-child(2) {
+    color: orange;
+}
+
+li button:nth-child(3) {
+    color: red;
+}
+
+.confirm-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.confirm-content {
+    text-align: center;
+}
+
+.confirm-content button {
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.edit-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.edit-content {
+    text-align: center;
+}
+
+.edit-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.edit-content button {
+    margin: 10px;
+    padding: 10px 20px;
+}
